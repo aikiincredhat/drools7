@@ -11,6 +11,7 @@ Find->Git
 Select->Egit
 
 
+
 Config Git Eclipse
 ----------------------------------------------
 Window->Perferences->Team->Git->Configuration

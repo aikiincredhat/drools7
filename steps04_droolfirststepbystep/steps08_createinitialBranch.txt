@@ -2,15 +2,9 @@ Create a New Branch
 -------------------------------------
 Select the Git Perspective
 
-o Create new local branch to capture project initialization
-Select root repository (drools7repository)->Branches->Local
-Right click Local->Switch to new branch->
-Branch name: basicprojec00
-Check->Configure upstream for push and pull
-When pulling->Merge
-Check->Check out new branch
-[Finish]
-
+See steps07_gitsteps.txt: 
+Create Branch For Adding Drool Rules
+Rename Project and pom.xml. Use project name basicproject08 
 
 
 Check out the branch - Make Acive
@@ -19,26 +13,8 @@ Double click Local branch->basicprojec00 if its not selected
 It is now the active branch and not master
 
 
-
+Set steps99_gitstashes.txt:
 Clone The Branch
-----------------------------------------------
-o Clone a Git Repository (icon)
-Icon with green arrow
-
-URI: 
-Browse [Local File] to /home/pchauvet/git/drools7repository/
-See URI: file:////home/pchauvet/git/drools7repository
-Next->
-We see all the banches listed:
-Check only the branch: basicproject00
-Next->
-Directory:
-	Browse to->/mnt/FDEV/DROOLSWORKSPACE/workspacedroolsonboarding62/
-	Append the name: basicproject00
-	Full path is now: /mnt/FDEV/DROOLSWORKSPACE/workspacedroolsonboarding62/basicproject00
-	Check Clone submodules
-	Check->Import all existing Eclipse projects after clone finishes
-[Finish]
 
 
 o A new local repository branch basicproject00 is created 
@@ -63,16 +39,8 @@ name:Drools 7 Basic Branch Init 00
 description: Init Drools 7 project using branch 00
 
 
-
-Show the Git Stating To Commit Changes
----------------------------------------------
-Window->Show View->Other->Git->Git Staging
-
-o Add all the unstage changes to State Changes
-This is the git add all via gui.
-Click the double ++ to add all unstaged files
-Commit message: Init Drools 7 project using branch 00
-[Commit]
+See steps07_gitsteps.txt: 
+o Commit Changes. Use message: Init Drools 7 project using branch 00
 
 
 Review Repository Working Tree With Branch

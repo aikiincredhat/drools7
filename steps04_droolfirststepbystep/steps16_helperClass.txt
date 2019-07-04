@@ -1,14 +1,9 @@
 Create A KIE Helper Class
 ----------------------------------------
 
+See steps07_gitsteps.txt: 
 Create Branch For Adding Drool Rules
--------------------------------------
-Select root repository (drools7repository)->Branches->Local
-Right click Local->Switch to new branch->
-Branch name: basicprojec06
-Check->Configure upstream for push and pull
-When pulling->Merge
-[Finish]
+Rename Project and pom.xml. Use project name basicproject16
 
 
 Clone The Git Repository In Eclipse
@@ -140,15 +135,8 @@ We see the rule system out message:
 
 
 
-Show the Git Stating To Commit Changes
----------------------------------------------
-Window->Show View->Other->Git->Git Staging
-
-o Add all the unstage changes to State Changes
-This is the git add all via gui.
-Click the double ++ to add all unstaged files
-Commit message: Add helper class to handle knowledge session
-[Commit]
+See steps07_gitsteps.txt: 
+o Commit Changes. Use message: Add helper class to handle knowledge session
 
 
 

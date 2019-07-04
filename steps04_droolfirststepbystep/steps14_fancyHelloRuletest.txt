@@ -1,6 +1,11 @@
 Create Rule Test
 ----------------------------------------
 
+See steps07_gitsteps.txt: 
+Create Branch For Adding Drool Rules
+Rename Project and pom.xml. Use project name basicproject14 
+
+
 Create A Junit Test
 ----------------------------------------
 In the test/main/java, package com.droolsexample.basicproject
@@ -138,15 +143,8 @@ kSession.fireAllRules();
 Drools engine will do the rest in processing the fancyhello.drl if its valid.
 
 
-Show the Git Stating To Commit Changes
----------------------------------------------
-Window->Show View->Other->Git->Git Staging
-
-o Add all the unstage changes to State Changes
-This is the git add all via gui.
-Click the double ++ to add all unstaged files
-Commit message: Add First Drools rule with test class
-[Commit]
+See steps07_gitsteps.txt: 
+o Commit Changes. Add First Drools rule with test class
 
 
 View Latest Changes in the Root repository: drools7repository
@@ -157,11 +155,9 @@ o I had deleted the drools7repository
 In the local repository basicprojec04->Select the Working Tree
 Right click->Add to Index
 
-In the repository drools7repository->In Git Stagin
-This is the git add all via gui.
-Click the double ++ to add all unstaged files
-Commit message: Force Add First Drools rule with test class
-[Commit]
+
+See steps07_gitsteps.txt: 
+o Commit Changes. Force Add First Drools rule with test class
 
 
 o Look for FancyHello.java changes
@@ -172,14 +168,4 @@ The .project file does not contain the basicproject04
 The local basicproject04/ has the changes.
 
 
-o Push the local repository changes
-Select the drools7repository->Right click->Push to Upstream
-
-o Commit changes to drools7repository/
-Go to drools7repository/ repository
-
-This is the git add all via gui.
-Click the double ++ to add all unstaged files
-Commit message: Add First Drools rule with test class
-[Commit]
 
