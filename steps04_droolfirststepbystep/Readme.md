@@ -30,13 +30,9 @@ steps99_gitstashes.txt - Steps I was using and gave up for the future. Maybe?
 Notice:
 	
 	In case you are wondering why I am only using even numbers?
-
 	From writing tutorials and experiences, sometimes I need to
-
 	sleep lessons in between other lessons. With even numbers, 
-
 	I can slip an odd number lessons. That's why! For example:
-
 	steps07_gitsteps.txt.
 
 
